@@ -698,9 +698,9 @@ local function CreateScriptLoader(name, description, loadLink)
 end
 
 -- Create script loaders
-CreateScriptLoader("Pabrik System", "Automated factory management and production system.", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Pabrik.lua")
-CreateScriptLoader("Auto Farm", "Resource farming automation for wood, stone, and more.", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Autofarm.lua")
-CreateScriptLoader("Manager", "Inventory management and item sorting system.", "https://raw.githubusercontent.com/ZonHUBs/ZONHUB/refs/heads/main/manager.lua")
+CreateAutoLoadTab("Pabrik", "Memuat otomatis sistem Pabrik.", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Pabrik.lua")
+CreateAutoLoadTab("Auto Farm", "Sistem farming resource (Kayu, Batu).", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Autofarm.lua")
+CreateAutoLoadTab("Manager", "Sistem Inventory & Sortir Barang.", "https://raw.githubusercontent.com/ZonHUBs/ZONHUB/refs/heads/main/manager.lua")
 CreateScriptLoader("Teleport Hub", "Quick teleportation to various locations.", "")
 CreateScriptLoader("ESP System", "Enhanced player visualization and tracking.", "")
 
