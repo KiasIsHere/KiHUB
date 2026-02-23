@@ -962,4 +962,7 @@ end)
 -- Console output for debugging
 print("[" .. getgenv().HubName .. "] UI Loaded Successfully")
 print("[" .. getgenv().HubName .. "] Version: " .. getgenv().HubVersion)
-print("[" .. getgenv().HubName .. "] Delta Compatible: " .. tostring(IS_DELTA))
+print("[" .. getgenv().HubName .. "] Delta Compatible: " .. tostring(IS_DELTA)
+CreateAutoLoadTab("Pabrik", "Memuat otomatis sistem Pabrik.", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Pabrik.lua")
+CreateAutoLoadTab("Auto Farm", "Sistem farming resource (Kayu, Batu).", "https://raw.githubusercontent.com/Koziz/CAW-SCRIPT/refs/heads/main/Autofarm.lua")
+CreateAutoLoadTab("Manager", "Sistem Inventory & Sortir Barang.", "https://raw.githubusercontent.com/ZonHUBs/ZONHUB/refs/heads/main/manager.lua")
